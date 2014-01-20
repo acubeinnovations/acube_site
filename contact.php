@@ -18,7 +18,7 @@ $headers = 'From: admin@acube.co' . "\r\n" .
 
 mail($to, $subject, $message, $headers);*/
 ?>
-	<link href="favicon.html" rel="icon" type="image/x-icon" />
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="css/bootstrap.css" />
 	<link rel="stylesheet" href="css/font-awesome.css" />
 <!--	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
@@ -36,4 +36,4 @@ mail($to, $subject, $message, $headers);*/
 			</div>
 		</div>
 
-<?php //header('Location: index.html');?>
+<?php header('Location: index.html');?>
