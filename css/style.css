@@ -242,6 +242,7 @@ a:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
 .navbar .navbar-nav li a:hover {
   background-color: #3BADDA; /*  DEFAULT #df5757 */
   outline: none;
@@ -315,7 +316,7 @@ a:hover {
   margin-top: 15px;
 }
 .minified {
-  opacity: 0.9;
+ /* opacity: 0.9;*/
   padding: 15px 0;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
@@ -2340,4 +2341,150 @@ a:hover {
     right: 40%;
     background: transparent url('../img/arrow-right.png') no-repeat top left;
   }
+  
+/* EXTRA ADDDED STYLE FOR JQUERY POPUP*/  
+  
+
+.popup 
+{
+    position:fixed;
+    border:solid 0px black;
+    width:50%;
+    height:300px;
+    left:25%;
+    top:40%;
+    display:none;
+    background-color:white;
+	z-index:1001;
+	padding-right: 32px;
+	padding-left: 32px;
+	border-radius:5px;
+	box-shadow: 10px 10px 5px #888888
+}
+.cover {
+	   display:none;
+       background:#333;
+       opacity:0.9;
+       filter:alpha(opacity=90);
+       position:absolute;
+       top:0px;
+       left:0px;
+       height:100%;
+       width: 100%;
+       z-index:1000;
+}  
+
+.close
+{
+	margin-top:2px;
+	}
+	
+/*-----------------------------------------------*/	
+
+.popup2 
+{
+    position:fixed;
+    border:solid 0px black;
+    width:50%;
+    height:300px;
+    left:25%;
+    top:40%;
+    display:none;
+    background-color:white;
+	z-index:1001;
+	padding-right: 32px;
+	padding-left: 32px;
+	border-radius:5px;
+	box-shadow: 10px 10px 5px #888888
+}
+.cover2 {
+	   display:none;
+       background:#333;
+       opacity:0.9;
+       filter:alpha(opacity=90);
+       position:absolute;
+       top:0px;
+       left:0px;
+       height:100%;
+       width: 100%;
+       z-index:1000;
+}  
+
+.close2
+{
+	margin-top:2px;
+	}
+	
+/*-----------------------------------------------*/	
+
+.popup3 
+{
+    position:fixed;
+    border:solid 0px black;
+    width:50%;
+    height:300px;
+    left:25%;
+    top:40%;
+    display:none;
+    background-color:white;
+	z-index:1001;
+	padding-right: 32px;
+	padding-left: 32px;
+	border-radius:5px;
+	box-shadow: 10px 10px 5px #888888
+}
+.cover3 {
+	   display:none;
+       background:#333;
+       opacity:0.9;
+       filter:alpha(opacity=90);
+       position:absolute;
+       top:0px;
+       left:0px;
+       height:100%;
+       width: 100%;
+       z-index:1000;
+}  
+
+.close3
+{
+	margin-top:2px;
+	}	
+/*-----------------------------------------------*/	
+
+.popup4 
+{
+    position:fixed;
+    border:solid 0px black;
+    width:50%;
+    height:300px;
+    left:25%;
+    top:40%;
+    display:none;
+    background-color:white;
+	z-index:1001;
+	padding-right: 32px;
+	padding-left: 32px;
+	border-radius:5px;
+	box-shadow: 10px 10px 5px #888888
+}
+.cover4 {
+	   display:none;
+       background:#333;
+       opacity:0.9;
+       filter:alpha(opacity=90);
+       position:absolute;
+       top:0px;
+       left:0px;
+       height:100%;
+       width: 100%;
+       z-index:1000;
+}  
+
+.close4
+{
+	margin-top:2px;
+	}	
+	
+
 }
