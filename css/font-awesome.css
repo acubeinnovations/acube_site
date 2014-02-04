@@ -344,7 +344,7 @@
   content: "\f02e";
 }
 .fa-print:before {
-  content: "\f02f";
+  content: "\f002"; /* f02f */
 }
 .fa-camera:before {
   content: "\f030";
@@ -585,7 +585,7 @@
   content: "\f082";
 }
 .fa-camera-retro:before {
-  content: "\f083";
+  content: "\f123"; /* f083 */
 }
 .fa-key:before {
   content: "\f084";
@@ -937,7 +937,7 @@
   content: "\f107";
 }
 .fa-desktop:before {
-  content: "\f108";
+  content: "\f139"; /* deefault f108 */
 }
 .fa-laptop:before {
   content: "\f109";
@@ -1053,7 +1053,7 @@
   content: "\f12d";
 }
 .fa-puzzle-piece:before {
-  content: "\f12e";
+  content: "\f133"; /* f12e */
 }
 .fa-microphone:before {
   content: "\f130";

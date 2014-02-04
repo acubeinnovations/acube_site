@@ -189,7 +189,7 @@ a:hover {
 /* add you final states (transition) or your effects (animations) for each side */
 .cbp-so-section.cbp-so-animate .cbp-so-side-top,
 .cbp-so-section.cbp-so-animate .cbp-so-side-bottom {
-  -webkit-transform: translateY(0px);
+  -webkit-transform: translateY(4px);
   -moz-transform: translateY(0px);
   transform: translateY(0px);
   opacity: 1;
@@ -373,6 +373,7 @@ a:hover {
    ========================================================================== */
 #about {
   text-align: center;
+  background-color:azure;
   padding: 100px 0;
   -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
@@ -2489,7 +2490,7 @@ a:hover {
 	
 .footer span
 {
-	  font-size:14px;
+	  font-size:9px;
       text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 	 
 	}	
