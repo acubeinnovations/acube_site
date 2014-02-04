@@ -2194,7 +2194,7 @@ a:hover {
 .footer p {
   color: #000;
   line-height: 1.666666666666667;
-  margin: 25px 0;
+  /*margin: 25px 0;*/
 }
 .scrolltotop {
   position: fixed;
@@ -2485,6 +2485,12 @@ a:hover {
 .close4
 {
 	margin-top:2px;
+	}	
+	
+.footer span
+{
+	  font-size:14px;
+      text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 	}	
 	
 
